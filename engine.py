@@ -203,6 +203,8 @@ def run_rules(c, now):
             made = _add_exc(c, key, o["order_id"], o["customer_name"], o["phone"], val,
                             o["order_date"], typ, reason, o["assigned_employee"], now, breach)
             n += made
+            if not made:  # keep the reason text current (age grows over time)
+                c.execute("UPDATE exceptions SET reason=? WHERE ukey=? AND status!='Resolved'", (reason, key))
             if not made:  # task exists: reopen only if the SYSTEM auto-resolved it and the rule applies again
                 t = c.execute("SELECT id,status FROM exceptions WHERE ukey=?", (key,)).fetchone()
                 last = c.execute("SELECT user FROM audit WHERE task_id=? ORDER BY id DESC LIMIT 1", (t["id"],)).fetchone()
