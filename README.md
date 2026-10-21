@@ -1,7 +1,7 @@
 # D2C Order Follow-up Automation
 
 ## Project Demonstration Video
-https://www.loom.com/share/d65bd7a30c45461783a0ea7f259de4a1
+[https://www.loom.com/share/d65bd7a30c45461783a0ea7f259de4a1](https://www.loom.com/share/303e864d23d44813987ad82d5dda711c)
 
 ## Tech Stack: 
 Python, Streamlit, pandas, SQLite (file `data/app.db`, created automatically).
