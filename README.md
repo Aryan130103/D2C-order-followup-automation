@@ -3,7 +3,8 @@
 ## Project Demonstration Video
 https://www.loom.com/share/d65bd7a30c45461783a0ea7f259de4a1
 
-**Stack:** Python, Streamlit, pandas, SQLite (file `data/app.db`, created automatically).
+## Tech Stack: 
+Python, Streamlit, pandas, SQLite (file `data/app.db`, created automatically).
 
 ## Run (works on a fresh machine - nothing assumed to be installed)
 1. Install Python 3.10+ from python.org (tick "Add Python to PATH"). Check: `python --version`
