@@ -1,5 +1,7 @@
 # D2C Order Follow-up Automation
 
+**Video Demo:** https://www.loom.com/share/303e864d23d44813987ad82d5dda711c
+
 **Stack:** Python, Streamlit, pandas, SQLite (file `data/app.db`, created automatically).
 
 ## Run (works on a fresh machine - nothing assumed to be installed)
