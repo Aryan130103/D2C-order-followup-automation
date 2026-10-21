@@ -1,4 +1,4 @@
-# D2C Order Follow-up Automation (NaturaX assessment)
+# D2C Order Follow-up Automation
 
 **Stack:** Python, Streamlit, pandas, SQLite (file `data/app.db`, created automatically).
 
